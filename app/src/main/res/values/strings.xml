@@ -1,0 +1,127 @@
+<resources>
+    <string name="app_name">OCX_Android</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Menu</string>
+    <string name="title_settings">Paramètres</string>
+
+    <!--CHANGEABLE MENU-->
+    <string name="title_new_vehicle">Ajouter un véhicule</string>
+    <string name="title_detail_vehicle">Détails sur le véhicule</string>
+    <string name="title_list_vehicle">Liste de mes véhicules</string>
+    <string name="title_list_repertory">Répertoire</string>
+    <string name="title_vehicles_section">Section Véhicules</string>
+    <string name="title_travels_section">Section Déplacements</string>
+    <string name="title_travels_list">Liste de mes déplacements</string>
+    <string name="title_travels_new">Ajouter un déplacement</string>
+    <string name="title_travels_new_old">Déplacement rétroactif</string>
+    <string name="title_expenses_list">Liste des factures</string>
+    <string name="title_expenses_new">Nouvelle facture</string>
+    <string name="title_expenses_section">Section Dépenses</string>
+
+    <!-- BUTTONS -->
+    <string name="btn_back">Retour</string>
+    <string name="btn_save">Enregistrer</string>
+    <string name="btn_cancel">Annuler</string>
+    <string name="btn_modify">Modifier</string>
+    <string name="btn_detele">Supprimer</string>
+    <string name="btn_to_reports">Section Rapports</string>
+    <string name="btn_yes">oui</string>
+    <string name="btn_no">non</string>
+    <string name="btn_toggle">Mode Aller-Retour</string>
+    <string name="btn_take_picture">Prendre en photo</string>
+    <string name="btn_delete">Supprimer</string>
+
+    <!-- ALERTS -->
+    <string name="alert_error">Erreur</string>
+    <string name="alert_confirm">Confirmation</string>
+    <string name="alert_empty_field">Vous devez remplir tous les champs.</string>
+    <string name="alert_success">Succès</string>
+    <string name="alert_success_save">Les informations ont été enregistrées</string>
+    <string name="alert_odometer">La nouvelle lecture de l odomètre ne peut être inférieure à la précédente.</string>
+    <string name="alert_new_travel_address_end">Vous devez saisir une adresse d arrivée valide.</string>
+    <string name="alert_confirmation_new_travel">Voulez-vous activer activer ce nouveau déplacement?</string>
+    <string name="alert_error_missing_descr_addr">Vous devez saisir une description</string>
+    <string name="alert_invalid_address">L\'addresse saisie n\'est pas valide</string>
+    <string name="alert_could_not_save">Les informations n\'ont pas pu être enregistrées. Vérifiez votre connection internet.</string>
+
+
+    <!-- LOGIN -->
+    <string name="login_invalid">Vérifiez votre adresse courriel et votre mot de passe.</string>
+
+    <!-- DASHBOARD -->
+    <string name="dashboard_menu_FR_repertory">Répertoire</string>
+    <string name="dashboard_menu_FR_track">Auto-Track</string>
+    <string name="dashboard_menu_FR_travels">Trajets</string>
+    <string name="dashboard_menu_FR_expenses">Dépenses</string>
+    <string name="dashboard_menu_FR_timesheet">Temps</string>
+    <string name="dashboard_menu_FR_reports">Rapports</string>
+    <string name="dashboard_menu_FR_vehicles">Véhicules</string>
+
+
+    <!-- VEHICLE -->
+    <string name="detail_vehicle_brand">Marque du véhicule</string>
+    <string name="detail_vehicle_model">Modèle du véhicule</string>
+    <string name="detail_vehicle_type">Type de véhicule</string>
+    <string name="detail_vehicle_fuel">Carburant</string>
+    <string name="detail_vehicle_odometer">Odomètre du véhicule</string>
+    <string name="detail_vehicle_description">Description du nouveau véhicule</string>
+    <string name="detail_vehicle_nickname">Surnom du nouveau véhicule</string>
+
+
+    <!-- REPERTORY -->
+    <string name="repertory_adresses">mes Adresses</string>
+    <string name="repertory_travels">mes Déplacements</string>
+    <string name="repertory_expenses">mes Dépenses</string>
+
+    <!-- TRAVEL -->
+    <string name="travel_type">Type</string>
+    <string name="travel_date">Date</string>
+    <string name="travel_address_start">Adresse Départ</string>
+    <string name="travel_address_end">Adresse Arrivée</string>
+    <string name="travel_distance">Distance</string>
+    <string name="travel_duration">Durée du trajet prévue</string>
+    <string name="travel_comment">Commentaire</string>
+    <string name="travel_time_start">Heure Départ</string>
+    <string name="travel_time_end">Heure Arrivée</string>
+    <string name="travel_list_item">à</string>
+    <string name="travel_list_vehicle">Véhicule</string>
+    <string name="travel_rb_spin">Choisir une adresse dans mes favoris</string>
+    <string name="travel_rb_manual">Saisir l adresse manuellement</string>
+    <string name="travel_type_personnal">Personnel</string>
+    <string name="travel_type_business">Entreprise</string>
+    <string name="travel_rb_all">Tous</string>
+
+
+    <!-- EXPENSE -->
+    <string name="expense_date">Date de la facture</string>
+    <string name="expense_description">Description</string>
+    <string name="expense_amount">Montant total de la facture</string>
+    <string name="expense_type">Type de dépense</string>
+    <string name="expense_picture_preview">Apperçut de la photo</string>
+
+
+    <!-- ADDRESS -->
+    <string name="address_new">Nouvelle Adresse</string>
+    <string name="address_list">Liste des adresses</string>
+    <string name="address_addressLine">Addresse</string>
+    <string name="address_name">Nom</string>
+    <string name="address_description">Description</string>
+
+    <!-- OTHER -->
+    <string name="date_format">Format AAAA-MM-JJ</string>
+    <string name="empty_repertory">Ce répertoire est vide.</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">Courriel</string>
+    <string name="prompt_password">Mot de passe</string>
+    <string name="action_sign_in">Se connecter</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome!"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+
+
+</resources>

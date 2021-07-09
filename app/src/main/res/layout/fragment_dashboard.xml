@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:theme="@style/Theme.OCX_Android"
+    tools:context=".ui.dashboard.DashboardFragment">
+
+
+    <Spinner
+        android:id="@+id/spin_vehicles_options"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="64dp"
+        android:background="@drawable/border"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="@+id/btn_account"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/btn_account"
+        app:layout_constraintTop_toTopOf="@+id/btn_account"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <ImageButton
+        android:id="@+id/btn_account"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="40dp"
+        android:background="@null"
+        android:scaleType="centerInside"
+        android:src="@drawable/ic_account"
+        app:layout_constraintBottom_toTopOf="@+id/divider"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:tint="#fff" />
+
+    <ImageView
+        android:id="@+id/divider"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:src="@drawable/horizontal_divider"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.138" />
+
+
+    <ImageButton
+        android:id="@+id/btn_Track"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:scaleType="centerInside"
+        android:src="@drawable/hexa_button"
+        app:layout_constraintBottom_toBottomOf="@+id/btn_Expenses"
+        app:layout_constraintEnd_toEndOf="@+id/btn_repertory"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/btn_repertory" />
+
+    <ImageButton
+        android:id="@+id/btn_Report"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:scaleType="centerInside"
+        android:src="@drawable/hexa_button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/btn_Vehicles"
+        app:layout_constraintStart_toStartOf="@+id/btn_Vehicles"
+        app:layout_constraintTop_toBottomOf="@+id/btn_Vehicles"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageButton
+        android:id="@+id/btn_repertory"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="5dp"
+        android:background="@null"
+        android:scaleType="centerInside"
+        android:src="@drawable/hexa_button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/divider"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageButton
+        android:id="@+id/btn_Travels"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:scaleType="centerInside"
+        android:src="@drawable/hexa_button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/btn_Track"
+        app:layout_constraintStart_toStartOf="@+id/btn_Track"
+        app:layout_constraintTop_toBottomOf="@+id/btn_Track"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageButton
+        android:id="@+id/btn_Expenses"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="5dp"
+        android:background="@null"
+        android:scaleType="centerInside"
+        android:src="@drawable/hexa_button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_repertory"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageButton
+        android:id="@+id/btn_Vehicles"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="118dp"
+        android:background="@null"
+        android:scaleType="centerInside"
+        android:src="@drawable/hexa_button"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="@+id/btn_repertory"
+        app:layout_constraintEnd_toEndOf="@+id/btn_Track"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/btn_repertory" />
+
+    <ImageView
+        android:id="@+id/iv1"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="10dp"
+        android:src="@drawable/ic_expenses"
+        app:layout_constraintBottom_toBottomOf="@+id/btn_Expenses"
+        app:layout_constraintEnd_toEndOf="@+id/btn_Expenses"
+        app:layout_constraintStart_toStartOf="@+id/btn_Expenses"
+        app:layout_constraintTop_toTopOf="@+id/btn_Expenses"
+        app:tint="#ecb13c" />
+
+    <ImageView
+        android:id="@+id/iv_track"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@drawable/ic_play"
+        app:layout_constraintBottom_toBottomOf="@+id/btn_Track"
+        app:layout_constraintEnd_toEndOf="@+id/btn_Track"
+        app:layout_constraintStart_toStartOf="@+id/btn_Track"
+        app:layout_constraintTop_toTopOf="@+id/btn_Track"
+        app:tint="#4CAF50" />
+
+    <ImageView
+        android:id="@+id/iv3"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="10dp"
+        android:src="@drawable/ic_task"
+        app:layout_constraintBottom_toBottomOf="@+id/btn_Report"
+        app:layout_constraintEnd_toEndOf="@+id/btn_Report"
+        app:layout_constraintStart_toStartOf="@+id/btn_Report"
+        app:layout_constraintTop_toTopOf="@+id/btn_Report"
+        app:tint="#ecb13c" />
+
+    <ImageView
+        android:id="@+id/iv4"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="10dp"
+        android:src="@drawable/ic_car"
+        app:layout_constraintBottom_toBottomOf="@+id/btn_Vehicles"
+        app:layout_constraintEnd_toEndOf="@+id/btn_Vehicles"
+        app:layout_constraintStart_toStartOf="@+id/btn_Vehicles"
+        app:layout_constraintTop_toTopOf="@+id/btn_Vehicles"
+        app:tint="#ecb13c" />
+
+    <ImageView
+        android:id="@+id/iv5"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="10dp"
+        android:src="@drawable/ic_travels"
+        app:layout_constraintBottom_toBottomOf="@+id/btn_Travels"
+        app:layout_constraintEnd_toEndOf="@+id/btn_Travels"
+        app:layout_constraintStart_toStartOf="@+id/btn_Travels"
+        app:layout_constraintTop_toTopOf="@+id/btn_Travels"
+        app:tint="#ecb13c" />
+
+    <ImageView
+        android:id="@+id/iv6"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="10dp"
+        android:src="@drawable/ic_repertory"
+        app:layout_constraintBottom_toBottomOf="@+id/btn_repertory"
+        app:layout_constraintEnd_toEndOf="@+id/btn_repertory"
+        app:layout_constraintStart_toStartOf="@+id/btn_repertory"
+        app:layout_constraintTop_toTopOf="@+id/btn_repertory"
+        app:tint="#ecb13c" />
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/dashboard_menu_FR_track"
+        android:textColor="#fff"
+        app:layout_constraintEnd_toEndOf="@+id/iv_track"
+        app:layout_constraintStart_toStartOf="@+id/iv_track"
+        app:layout_constraintTop_toBottomOf="@+id/iv_track" />
+
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/dashboard_menu_FR_reports"
+        android:textColor="#fff"
+        app:layout_constraintEnd_toEndOf="@+id/iv3"
+        app:layout_constraintStart_toStartOf="@+id/iv3"
+        app:layout_constraintTop_toBottomOf="@+id/iv3" />
+
+    <TextView
+        android:id="@+id/tv3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/dashboard_menu_FR_repertory"
+        android:textColor="#fff"
+        app:layout_constraintEnd_toEndOf="@+id/iv6"
+        app:layout_constraintStart_toStartOf="@+id/iv6"
+        app:layout_constraintTop_toBottomOf="@+id/iv6" />
+
+    <TextView
+        android:id="@+id/tv4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/dashboard_menu_FR_expenses"
+        android:textColor="#fff"
+        app:layout_constraintEnd_toEndOf="@+id/iv1"
+        app:layout_constraintStart_toStartOf="@+id/iv1"
+        app:layout_constraintTop_toBottomOf="@+id/iv1" />
+
+    <TextView
+        android:id="@+id/tv5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/dashboard_menu_FR_travels"
+        android:textColor="#fff"
+        app:layout_constraintEnd_toEndOf="@+id/iv5"
+        app:layout_constraintStart_toStartOf="@+id/iv5"
+        app:layout_constraintTop_toBottomOf="@+id/iv5" />
+
+    <TextView
+        android:id="@+id/tv6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/dashboard_menu_FR_vehicles"
+        android:textColor="#fff"
+        app:layout_constraintEnd_toEndOf="@+id/iv4"
+        app:layout_constraintStart_toStartOf="@+id/iv4"
+        app:layout_constraintTop_toBottomOf="@+id/iv4" />
+
+    <TextView
+        android:id="@+id/txt_firstName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/divider"
+        app:layout_constraintEnd_toStartOf="@+id/spin_vehicles_options"
+        app:layout_constraintHorizontal_bias="0.047"
+        app:layout_constraintStart_toEndOf="@+id/btn_account"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
