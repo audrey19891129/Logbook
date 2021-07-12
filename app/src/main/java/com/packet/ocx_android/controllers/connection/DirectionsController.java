@@ -9,7 +9,7 @@ import cz.msebera.android.httpclient.Header;
 public class DirectionsController {
     //"https://maps.googleapis.com/maps/api/directions/json?origin=Disneyland&destination=Universal+Studios+Hollywood&key=YOUR_API_KEY";
     private static final String BASE_URL = "https://maps.googleapis.com/maps/api/directions/json?";
-    private static final String API_KEY = "&key=AIzaSyBk1SJpGo2KxQC--3p9ESdHTCfpxS9g8aY";
+    private static final String API_KEY = "&key=API_KEY";
     private static final String ORIGIN = "origin=";
     private static final String DESTINATION = "&destination=";
     public static final String UNITS = "&units=metric";
